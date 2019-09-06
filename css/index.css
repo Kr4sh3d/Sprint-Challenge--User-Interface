@@ -99,6 +99,11 @@ header nav a:first-child {
 header nav a:last-child {
   margin-right: 0;
 }
+
+.image {
+    margin-inline-start: 198px;
+    margin-inline-end: 190px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -286,12 +291,15 @@ footer nav a {
 
 
 /* Header Styling */
+
 header .header-container {
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
 	margin-top: 15px;
-	margin-bottom: 35px;
+    margin-bottom: 35px;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
 }
 
 header nav {
@@ -341,13 +349,17 @@ button:hover {
 }
 
 .about-subheader{
-	padding: 17px;
+	padding: 20px;
 	border-bottom: 1px dashed black;
-	margin-bottom: 25px;
+    margin-bottom: 25px;
+    margin-inline-start: 176px;
+    margin-inline-end: 176px;
 }
 
 .about-boxed-content{
   line-height: 22px;
+  margin-inline-start: 250px;
+  margin-inline-end: 250px;
 }
 
 .about-boxed-content .toprow{
@@ -398,5 +410,11 @@ button:hover {
 
 .bottom{
 	margin: 25px 10px;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+}
 
+.footer{
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
 }
