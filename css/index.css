@@ -66,7 +66,9 @@ p {
     line-height: 1.4;
 }
 /* HEADER STYLES */
-
+h1 {
+    -webkit-animation: jello
+}
 
 header .header-container {
 	display: flex;
