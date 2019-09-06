@@ -69,12 +69,12 @@ p {
 
 
 .header-container {
-    margin: 30px 0;  
+    margin: 50px 0;  
 }
 
 .header-container nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: baseline;
 }
 
@@ -271,12 +271,12 @@ footer nav a {
 /* Header Styling */
 
 .container-about-page {
-    margin: 30px 0;  
+    margin: 50px 0;  
 }
 
 .container-about-page nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: baseline;
 }
 
